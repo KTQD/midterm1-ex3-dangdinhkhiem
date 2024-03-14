@@ -3,8 +3,8 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) {
 
-        String inputFilePath = "input.txt";
-        String outputFilePath = "output.txt";
+        String inputFilePath = "src/input.txt";
+        String outputFilePath = "src/output.txt";
 
         try {
 
@@ -25,7 +25,7 @@ public class Main {
                 bufferedWriter.newLine();
             }
 
-            
+
             bufferedReader.close();
             bufferedWriter.close();
 
